@@ -6,7 +6,7 @@ a repository for programs that solve various games including word games, puzzle 
 - Word Hunt is a 4X4 grid of letters A-Z that must be combiined to make words minimum length of three, these letter can be combined by starting at any one cell and connecting subsequent letters that are adjacent or diagnol from the current letter:
 
 In the case below for example, we can create the word "HUNT"
-_________________
+
 | H | _ | _ | _ |
 | _ | U | N | _ |
 | _ | _ | T | _ |
@@ -16,7 +16,7 @@ _________________
 the code should take a string of 16 characters that represent each letter in the matrix and output an array of strings that represents words that can be legally made by the rules of the game from the given matrix.
 
 "ABCDEFGHIJKLMNOP" would create:
-_________________
+
 | A | B | C | D |
 | E | F | G | H |
 | I | J | K | L |
