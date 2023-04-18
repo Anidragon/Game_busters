@@ -11,7 +11,7 @@ _________________
 | _ | U | N | _ |
 | _ | _ | T | _ |
 | _ | _ | _ | _ |
-------------------
+
 
 the code should take a string of 16 characters that represent each letter in the matrix and output an array of strings that represents words that can be legally made by the rules of the game from the given matrix.
 
@@ -21,7 +21,7 @@ _________________
 | E | F | G | H |
 | I | J | K | L |
 | M | N | O | P |
-------------------
+
 
 possible words that can be made here include: "INK" or "KNIFE"
 
