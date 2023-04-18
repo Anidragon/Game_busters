@@ -8,8 +8,11 @@ a repository for programs that solve various games including word games, puzzle 
 In the case below for example, we can create the word "HUNT"
 
 | H | _ | _ | _ |
+
 | _ | U | N | _ |
+
 | _ | _ | T | _ |
+
 | _ | _ | _ | _ |
 
 
@@ -18,8 +21,11 @@ the code should take a string of 16 characters that represent each letter in the
 "ABCDEFGHIJKLMNOP" would create:
 
 | A | B | C | D |
+
 | E | F | G | H |
+
 | I | J | K | L |
+
 | M | N | O | P |
 
 
