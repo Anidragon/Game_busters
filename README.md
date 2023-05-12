@@ -3,7 +3,7 @@ a repository for programs that solve various games including word games, puzzle 
 
 #1: WordCruncher: code to solve the popular game pigeon word games like Anagrams and Word Hunt:
 
-- Word Hunt is a 4X4 grid of letters A-Z that must be combiined to make words minimum length of three, these letter can be combined by starting at any one cell and connecting subsequent letters that are adjacent or diagnol from the current letter:
+- (check src folder in the WordCruncher folder to find this) Word Hunt is a 4X4 grid of letters A-Z that must be combiined to make words minimum length of three, these letter can be combined by starting at any one cell and connecting subsequent letters that are adjacent or diagnol from the current letter:
 
 In the case below for example, we can create the word "HUNT"
 
@@ -37,6 +37,8 @@ The program will take a string of 6 characters and return an array containing al
 ex: "ABCDEF"
 possible strings in the retruning array could be : "ACE" or "BEAD"
 
-#2: NumberCruncher: code to solve popular math and number games like sudoku or "24"
+#2: SudokuSolver: code to solve sudoku:
+
+the code will be given a 2D array of characters that are either numbers from 1-9 or blank space characters: '_', given this array the algorithm will recursivley find the correct numbers for the blank tiles and print a grid of numbers representing the solved sudoku board.
 
 #3: 
