@@ -47,6 +47,6 @@ the code will be given a 2D array of characters that are either numbers from 1-9
 - for example, if given the numbers: {4, 7, 8, 8}, the solution would be:
     - (7 + 4 = 11)
     - (11 - 8 = 3)
-    - (8 * 3 - 24) -> ended with 24
+    - (8 * 3 = 24) -> ended with 24
 - this solver asks for user input for 4 integers and calculates the steps to get the solution
 - the method utilizes recursion to explore all options and return the correct answer if it exists
