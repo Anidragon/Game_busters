@@ -41,4 +41,12 @@ possible strings in the retruning array could be : "ACE" or "BEAD"
 
 the code will be given a 2D array of characters that are either numbers from 1-9 or blank space characters: '_', given this array the algorithm will recursivley find the correct numbers for the blank tiles and print a grid of numbers representing the solved sudoku board.
 
-#3: 
+#3: TwentyFourGameSolver:
+
+- 24 is a number game in which four integers are given to the players, and the four basic operations (+, -, *, /) can be used to make those four numbers into the number 24 by the end of the operations.
+- for example, if given the numbers: {4, 7, 8, 8}, the solution would be:
+    - (7 + 4 = 11)
+    - (11 - 8 = 3)
+    - (8 * 3 - 24) -> ended with 24
+- this solver asks for user input for 4 integers and calculates the steps to get the solution
+- the method utilizes recursion to explore all options and return the correct answer if it exists
